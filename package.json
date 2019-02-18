@@ -1,0 +1,17 @@
+{
+  "name": "tarlek-octo",
+  "version": "1.0.0",
+  "description": "octo message service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "goodoper",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "content-disposition": "^0.5.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
