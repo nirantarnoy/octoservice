@@ -1,10 +1,10 @@
 var request = require('request');
 
 //var link = "http://www.cameliso.net/alert/api/index.php?";
-var url = "http://localhost/octo/backend/web/index.php?r=site/index";
-//var url = "http://backend.octopus.co.th";
+//var url = "http://localhost/octo/backend/web/index.php?r=site/index";
+var url = "http://backend.octopus.co.th";
 
-setInterval(checknotify, 5000)
+setInterval(checknotify, 15000)
 
 function checknotify(){
     request(url ,function (error, response, body) {
